@@ -1,0 +1,12 @@
+[C++] 156 nodes, max |python - C++| = 5.00e-07
+[Blender] mesh: 141127 triangles, 7909 components, 3794 clean 20-vertex dodecahedra
+[Blender] matched 2435 of them to distinct tree nodes (2435 distinct), unmatched 1359; max relative vertex error 4.94e-03
+[Blender] matches by depth: {0: '0/1', 1: '0/5', 2: '0/25', 3: '32/125', 4: '332/625', 5: '2071/3125'}
+[Blender] the 1359 non-exact clean dodecahedra are regular (max fit error 0.034), lie within 0.51 node sizes of a tree node (median 0.052) and are rotated by at most 1.09 deg
+[formal] legacy map vs exact-constant map, per child:
+   child 0: twist axis.e_k = +1.0000, angle = 45.000 deg, |A-A*|/g = 0.0e+00, |t-t*| = 0.0e+00
+   child 1: twist axis.e_k = +1.0000, angle = 45.000 deg, |A-A*|/g = 3.9e-03, |t-t*| = 1.9e-03
+   child 2: twist axis.e_k = +1.0000, angle = 45.000 deg, |A-A*|/g = 3.9e-03, |t-t*| = 1.9e-03
+   child 3: twist axis.e_k = +1.0000, angle = 45.000 deg, |A-A*|/g = 3.9e-03, |t-t*| = 1.9e-03
+   child 4: twist axis.e_k = +1.0000, angle = 45.000 deg, |A-A*|/g = 3.9e-03, |t-t*| = 1.9e-03
+[formal] depth-5 trees differ by at most 6.662e-03 (tree diameter ~ 4)

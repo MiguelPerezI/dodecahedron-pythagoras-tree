@@ -1,0 +1,29 @@
+arXiv submission metadata (paste into the submission form)
+=============================================================
+
+Title
+-----
+A Pythagoras Tree Grown from a Dodecahedron
+
+Authors
+-------
+Miguel Esteban Pérez Ibarra (Escuela Superior de Física y Matemáticas, Instituto Politécnico Nacional, Mexico City)
+
+Primary category:  math.MG  (Metric Geometry)
+Cross-lists:       math.HO  (History and Overview)
+                   cs.CG    (Computational Geometry)
+MSC classes:       28A80, 52B10, 00A66
+Comments field:    11 pages, 7 figures. Code and data: https://github.com/MiguelPerezI/dodecahedron-pythagoras-tree
+License:           CC BY 4.0 recommended (arXiv perpetual non-exclusive license is the minimum)
+
+Abstract
+--------
+The Pythagoras tree of A. E. Bosman (1942) is drawn with squares in the plane and, in the three-dimensional versions we know of, with cubes. This article documents a tree built instead from regular dodecahedra: each dodecahedron carries five smaller copies, one on each edge of a single pentagonal "crown" face, scaled by g ≈ 0.4346 and twisted by 45° about the edge. The construction first existed only as a pair of rendered images and two undocumented C++ programs. We recover its exact parameters from the original Blender scene, reformulate it as an iterated function system with condensation, and prove with a short computer-assisted argument that it never collides with itself: two of its dodecahedra overlap only when one is the parent of the other. A Pythagorean identity for the six face axes of the dodecahedron singles out the scale 1/√5 and the twist arccos(1/√5). With these values each child rests flat against a face of its parent, the five children together have exactly the parent's surface area, and the crown of the tree is a fractal of Hausdorff dimension exactly 2. Finally we ask whether the tree can grow on all twelve faces at once. A parity argument shows that at the artwork's proportions it cannot, but smaller scale factors admit certified clash-free all-faces trees.
+
+Upload
+------
+Upload dodecahedral_pythagoras_tree_arxiv.tar.gz as the source. arXiv will run pdflatex
+(the first line of the .tex is \pdfoutput=1, as arXiv requires for pdflatex with JPEG/PDF figures).
+Files under anc/ are shown as "Ancillary files" on the abstract page and are not compiled.
+
+Endorsement: a first submission to math.* may require an endorser; arXiv shows how to request one.

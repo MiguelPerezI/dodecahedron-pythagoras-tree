@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+# large derived outputs (regenerate with the scripts; see README)
+out/stl/
+out/meshes/
+out/jobs/
+out/legacy_build/
+out/*.stl
+out/dragon7.npz
+out/*.log
+paper/figures/render_*.png
+paper/*.aux
+paper/*.log
+paper/*.out
+arxiv/stage/

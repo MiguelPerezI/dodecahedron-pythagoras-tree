@@ -1,0 +1,2279 @@
+{
+ "parameters": {
+  "g": 0.4345584412271571,
+  "d": 1.357995128834866,
+  "kappa": 0.8238135423716941
+ },
+ "legacy": {
+  "0": {
+   "nodes": 781,
+   "non_joint": 1325,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:other": 5,
+    "2:siblings": 25,
+    "3:other": 65,
+    "3:siblings": 125,
+    "4:other": 475,
+    "4:siblings": 625
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 780,
+   "parent_child_pairs": 780,
+   "joint_overlap_fraction": 0.006415910340556851
+  },
+  "45": {
+   "nodes": 781,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 780,
+   "parent_child_pairs": 780,
+   "joint_overlap_fraction": 0.0016433785392477097
+  },
+  "90": {
+   "nodes": 781,
+   "non_joint": 780,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:siblings": 25,
+    "3:siblings": 125,
+    "4:siblings": 625
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 780,
+   "parent_child_pairs": 780,
+   "joint_overlap_fraction": 0.002794035243106625
+  },
+  "rounded_constants_45": {
+   "nodes": 781,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 780,
+   "parent_child_pairs": 780
+  },
+  "certificate_45": {
+   "Q_vertices": 1380.0,
+   "Q_residual": -5.537159619706244e-10,
+   "crown_siblings": -0.0073373878869126274,
+   "crown_root_vs_grandchildren": -0.3036018729860952,
+   "certified": true
+  },
+  "certificate_45_rounded": {
+   "Q_vertices": 2002.0,
+   "Q_residual": -5.532776459205024e-10,
+   "crown_siblings": -0.005815607057575223,
+   "crown_root_vs_grandchildren": -0.3048287112928593,
+   "certified": true
+  },
+  "two_children_cpp_default": {
+   "nodes": 511,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 510,
+   "parent_child_pairs": 510
+  }
+ },
+ "pairs": [
+  {
+   "theta": 0,
+   "ccw_ccw": 0.05839189133178726,
+   "cw_cw": 0.05839189133178726,
+   "in_in": 0.05839189133178726,
+   "out_out": 0.05839189133178726
+  },
+  {
+   "theta": 5,
+   "ccw_ccw": 0.0745608094295774,
+   "cw_cw": 0.07652601178203751,
+   "in_in": 0.04305692761037181,
+   "out_out": 0.04305692761037194
+  },
+  {
+   "theta": 10,
+   "ccw_ccw": 0.084417046583427,
+   "cw_cw": 0.092394834166223,
+   "in_in": 0.027548034710263954,
+   "out_out": 0.027548034710263826
+  },
+  {
+   "theta": 15,
+   "ccw_ccw": 0.08735966543315654,
+   "cw_cw": 0.10554416379309386,
+   "in_in": 0.012253242131034257,
+   "out_out": 0.012253242131034257
+  },
+  {
+   "theta": 20,
+   "ccw_ccw": 0.08290863377461183,
+   "cw_cw": 0.11559690985290708,
+   "in_in": -0.002535593502608719,
+   "out_out": -0.002535593502608719
+  },
+  {
+   "theta": 25,
+   "ccw_ccw": 0.07072238296622817,
+   "cw_cw": 0.12226437231149205,
+   "in_in": -0.016559539971119606,
+   "out_out": -0.016559539971119735
+  },
+  {
+   "theta": 30,
+   "ccw_ccw": 0.05061181513887708,
+   "cw_cw": 0.12535488645559528,
+   "in_in": -0.02953362969934351,
+   "out_out": -0.029533629699343637
+  },
+  {
+   "theta": 35,
+   "ccw_ccw": 0.022550305989491384,
+   "cw_cw": 0.12477956339940893,
+   "in_in": -0.04107255311878428,
+   "out_out": -0.041072553118784084
+  },
+  {
+   "theta": 40,
+   "ccw_ccw": -0.013440524210164851,
+   "cw_cw": 0.12055495276255868,
+   "in_in": -0.05056560246373015,
+   "out_out": -0.05056560246373031
+  },
+  {
+   "theta": 45,
+   "ccw_ccw": -0.05701558795230193,
+   "cw_cw": 0.11280254690589027,
+   "in_in": -0.05691538409301812,
+   "out_out": -0.056915384093018107
+  },
+  {
+   "theta": 50,
+   "ccw_ccw": -0.10764081254348411,
+   "cw_cw": 0.10174514173466352,
+   "in_in": -0.06497402662588521,
+   "out_out": -0.06497402662588503
+  },
+  {
+   "theta": 55,
+   "ccw_ccw": -0.13957633984129056,
+   "cw_cw": 0.08770016424636261,
+   "in_in": -0.06841170101919102,
+   "out_out": -0.06841170101919089
+  },
+  {
+   "theta": 60,
+   "ccw_ccw": -0.138211658722139,
+   "cw_cw": 0.07107016882331124,
+   "in_in": -0.06638015129179851,
+   "out_out": -0.06638015129179836
+  },
+  {
+   "theta": 65,
+   "ccw_ccw": -0.12457572522605012,
+   "cw_cw": 0.06409100669296948,
+   "in_in": -0.05848649941125487,
+   "out_out": -0.05848649941125471
+  },
+  {
+   "theta": 70,
+   "ccw_ccw": -0.07221943055937895,
+   "cw_cw": 0.07835510536909783,
+   "in_in": -0.04458350151205253,
+   "out_out": -0.0445835015120524
+  },
+  {
+   "theta": 75,
+   "ccw_ccw": -0.026311708514559384,
+   "cw_cw": 0.0861066139089303,
+   "in_in": -0.024776967803064234,
+   "out_out": -0.024776967803063914
+  },
+  {
+   "theta": 80,
+   "ccw_ccw": 0.012150706856182766,
+   "cw_cw": 0.08678035855776225,
+   "in_in": 0.0005750427120370035,
+   "out_out": 0.0005750427120371949
+  },
+  {
+   "theta": 85,
+   "ccw_ccw": 0.04267984712903679,
+   "cw_cw": 0.07993791674164791,
+   "in_in": 0.030871246572707397,
+   "out_out": 0.03087124657270727
+  },
+  {
+   "theta": 90,
+   "ccw_ccw": 0.06528411917632856,
+   "cw_cw": 0.06528411917632856,
+   "in_in": 0.06528411917632856,
+   "out_out": 0.06528411917632856
+  },
+  {
+   "theta": 95,
+   "ccw_ccw": 0.07993791674164791,
+   "cw_cw": 0.04267984712903691,
+   "in_in": 0.030871246572707525,
+   "out_out": 0.030871246572707525
+  },
+  {
+   "theta": 100,
+   "ccw_ccw": 0.0867803585577624,
+   "cw_cw": 0.01215070685618302,
+   "in_in": 0.0005750427120371949,
+   "out_out": 0.0005750427120371949
+  },
+  {
+   "theta": 105,
+   "ccw_ccw": 0.08610661390893005,
+   "cw_cw": -0.026311708514559492,
+   "in_in": -0.024776967803064168,
+   "out_out": -0.024776967803064105
+  },
+  {
+   "theta": 110,
+   "ccw_ccw": 0.07835510536909783,
+   "cw_cw": -0.07221943055937888,
+   "in_in": -0.04458350151205227,
+   "out_out": -0.04458350151205253
+  },
+  {
+   "theta": 115,
+   "ccw_ccw": 0.06409100669296973,
+   "cw_cw": -0.12457572522604995,
+   "in_in": -0.0584864994112547,
+   "out_out": -0.058486499411254785
+  },
+  {
+   "theta": 120,
+   "ccw_ccw": 0.0710701688233115,
+   "cw_cw": -0.1382116587221387,
+   "in_in": -0.0663801512917984,
+   "out_out": -0.06638015129179836
+  },
+  {
+   "theta": 125,
+   "ccw_ccw": 0.08770016424636286,
+   "cw_cw": -0.1395763398412904,
+   "in_in": -0.06841170101919102,
+   "out_out": -0.06841170101919097
+  },
+  {
+   "theta": 130,
+   "ccw_ccw": 0.10174514173466352,
+   "cw_cw": -0.10764081254348427,
+   "in_in": -0.06497402662588529,
+   "out_out": -0.06497402662588514
+  },
+  {
+   "theta": 135,
+   "ccw_ccw": 0.11280254690589014,
+   "cw_cw": -0.05701558795230202,
+   "in_in": -0.05691538409301801,
+   "out_out": -0.056915384093018107
+  },
+  {
+   "theta": 140,
+   "ccw_ccw": 0.12055495276255881,
+   "cw_cw": -0.013440524210164787,
+   "in_in": -0.05056560246373006,
+   "out_out": -0.05056560246373025
+  },
+  {
+   "theta": 145,
+   "ccw_ccw": 0.12477956339940943,
+   "cw_cw": 0.022550305989491704,
+   "in_in": -0.04107255311878395,
+   "out_out": -0.04107255311878395
+  },
+  {
+   "theta": 150,
+   "ccw_ccw": 0.12535488645559545,
+   "cw_cw": 0.05061181513887752,
+   "in_in": -0.029533629699343374,
+   "out_out": -0.029533629699343502
+  },
+  {
+   "theta": 155,
+   "ccw_ccw": 0.12226437231149206,
+   "cw_cw": 0.07072238296622801,
+   "in_in": -0.0165595399711196,
+   "out_out": -0.016559539971119665
+  },
+  {
+   "theta": 160,
+   "ccw_ccw": 0.11559690985290723,
+   "cw_cw": 0.08290863377461183,
+   "in_in": -0.0025355935026085915,
+   "out_out": -0.002535593502608719
+  },
+  {
+   "theta": 165,
+   "ccw_ccw": 0.10554416379309374,
+   "cw_cw": 0.08735966543315667,
+   "in_in": 0.012253242131034257,
+   "out_out": 0.012253242131034129
+  },
+  {
+   "theta": 170,
+   "ccw_ccw": 0.092394834166223,
+   "cw_cw": 0.084417046583427,
+   "in_in": 0.027548034710264083,
+   "out_out": 0.027548034710263954
+  },
+  {
+   "theta": 175,
+   "ccw_ccw": 0.07652601178203756,
+   "cw_cw": 0.07456080942957764,
+   "in_in": 0.04305692761037194,
+   "out_out": 0.04305692761037181
+  },
+  {
+   "theta": 180,
+   "ccw_ccw": 0.058391891331787384,
+   "cw_cw": 0.058391891331787384,
+   "in_in": 0.058391891331787384,
+   "out_out": 0.058391891331787384
+  }
+ ],
+ "optimal_owner": {
+  "owner": [
+   1,
+   6,
+   1,
+   0,
+   3,
+   2,
+   3,
+   0,
+   7,
+   7,
+   5,
+   1,
+   5,
+   6,
+   4,
+   11,
+   8,
+   9,
+   11,
+   10,
+   4,
+   10,
+   11,
+   5,
+   7,
+   8,
+   9,
+   2,
+   8,
+   10
+  ],
+  "min_cw_cw_pairs": 6,
+  "faces_owned": [
+   2,
+   3,
+   2,
+   2,
+   2,
+   3,
+   2,
+   3,
+   3,
+   2,
+   3,
+   3
+  ]
+ },
+ "extensions": {
+  "twelve": {
+   "nodes": 1861,
+   "non_joint": 1650,
+   "by_depth": {
+    "1:siblings": 90,
+    "2:other": 360,
+    "3:other": 1200
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 1860,
+   "parent_child_pairs": 1860
+  },
+  "thirty_lowest": {
+   "nodes": 931,
+   "non_joint": 180,
+   "by_depth": {
+    "1:siblings": 20,
+    "3:other": 160
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 930,
+   "parent_child_pairs": 930
+  },
+  "thirty_optimal": {
+   "nodes": 931,
+   "non_joint": 54,
+   "by_depth": {
+    "1:siblings": 6,
+    "3:other": 48
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 930,
+   "parent_child_pairs": 930
+  },
+  "ifs30_optimal": {
+   "nodes": 931,
+   "non_joint": 2628,
+   "by_depth": {
+    "1:siblings": 6,
+    "2:ancestor": 210,
+    "2:other": 2232,
+    "2:siblings": 180
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 930,
+   "parent_child_pairs": 930
+  }
+ },
+ "phase": [
+  {
+   "kind": "crown",
+   "theta": 0,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 156,
+   "non_joint": 35,
+   "by_depth": {
+    "2:other": 5,
+    "3:other": 30
+   },
+   "first_clash_depth": 2,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": null
+  },
+  {
+   "kind": "crown",
+   "theta": 0,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 156,
+   "non_joint": 225,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:other": 5,
+    "2:siblings": 25,
+    "3:other": 65,
+    "3:siblings": 125
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": null
+  },
+  {
+   "kind": "crown",
+   "theta": 0,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 780.0,
+    "Q_residual": -7.999967355232229e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.15214538333814387
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 0,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 817.0,
+    "Q_residual": -7.499822984868842e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.18924502196266613
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 0,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 833.0,
+    "Q_residual": -6.999882895541987e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.22596997770318245
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 0,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 845.0,
+    "Q_residual": -6.499785154545634e-10,
+    "crown_siblings": -0.05007907566232924,
+    "crown_root_vs_grandchildren": -0.2623202505596941
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 15,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 156,
+   "non_joint": 195,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:other": 5,
+    "2:siblings": 25,
+    "3:other": 35,
+    "3:siblings": 125
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": null
+  },
+  {
+   "kind": "crown",
+   "theta": 15,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 156,
+   "non_joint": 225,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:other": 5,
+    "2:siblings": 25,
+    "3:other": 65,
+    "3:siblings": 125
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": null
+  },
+  {
+   "kind": "crown",
+   "theta": 0,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 156,
+   "non_joint": 340,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:other": 10,
+    "2:siblings": 25,
+    "3:other": 175,
+    "3:siblings": 125
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": null
+  },
+  {
+   "kind": "crown",
+   "theta": 15,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1632.0,
+    "Q_residual": -7.960092585079792e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.1488219927210952
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 15,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1635.0,
+    "Q_residual": -7.423983650056698e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.18442174203692943
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 15,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1639.0,
+    "Q_residual": -6.876712532744023e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.2193791996839599
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 30,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1478.0,
+    "Q_residual": -6.960012566281648e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.2176620760293991
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 30,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1539.0,
+    "Q_residual": -6.453375611670253e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.25118050654694457
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 30,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1408.0,
+    "Q_residual": -7.973255389259748e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.14826078840523302
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 30,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1478.0,
+    "Q_residual": -7.466733897842914e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.18335552413757703
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 15,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1639.0,
+    "Q_residual": -6.317812939471423e-10,
+    "crown_siblings": -0.07492269581816247,
+    "crown_root_vs_grandchildren": -0.25369439045983366
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 15,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": false,
+   "margins": {
+    "Q_vertices": 1640.0,
+    "Q_residual": -5.727573970659705e-10,
+    "crown_siblings": 0.017944913480155034,
+    "crown_root_vs_grandchildren": -0.2873672552956266
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 30,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1569.0,
+    "Q_residual": -5.94649662843949e-10,
+    "crown_siblings": -0.012034007500889062,
+    "crown_root_vs_grandchildren": -0.2839106243946141
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 30,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 156,
+   "non_joint": 155,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:siblings": 25,
+    "3:siblings": 125
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": null
+  },
+  {
+   "kind": "crown",
+   "theta": 45,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1349.0,
+    "Q_residual": -7.434650672877297e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.18224436369086766
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 45,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1350.0,
+    "Q_residual": -6.919791406545528e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.21620835705792554
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 45,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1400.0,
+    "Q_residual": -6.407216979198438e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.24936743203438175
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 45,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1390.0,
+    "Q_residual": -5.892182297628779e-10,
+    "crown_siblings": -0.032717756972291956,
+    "crown_root_vs_grandchildren": -0.28171932303399644
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 30,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 156,
+   "non_joint": 165,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:siblings": 25,
+    "3:other": 10,
+    "3:siblings": 125
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": null
+  },
+  {
+   "kind": "crown",
+   "theta": 45,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1259.0,
+    "Q_residual": -7.947735802815714e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.14747777545495966
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 45,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": false,
+   "margins": {
+    "Q_vertices": 1380.0,
+    "Q_residual": -5.37735189709565e-10,
+    "crown_siblings": 0.03403815093789331,
+    "crown_root_vs_grandchildren": -0.31321803215351085
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 45,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 156,
+   "non_joint": 155,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:siblings": 25,
+    "3:siblings": 125
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": null
+  },
+  {
+   "kind": "crown",
+   "theta": 60,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1099.0,
+    "Q_residual": -7.916809430241756e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.14787434604600322
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 60,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1119.0,
+    "Q_residual": -7.4039840924911e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.18293665559042463
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 60,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 156,
+   "non_joint": 155,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:siblings": 25,
+    "3:siblings": 125
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": null
+  },
+  {
+   "kind": "crown",
+   "theta": 75,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1209.0,
+    "Q_residual": -7.897205112072925e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.1323609851817367
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 60,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1200.0,
+    "Q_residual": -6.885045866766859e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.21723645028770058
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 60,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1230.0,
+    "Q_residual": -6.365914462236333e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.2507260526787617
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 75,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 156,
+   "non_joint": 155,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:siblings": 25,
+    "3:siblings": 125
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": null
+  },
+  {
+   "kind": "crown",
+   "theta": 75,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 156,
+   "non_joint": 155,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:siblings": 25,
+    "3:siblings": 125
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": null
+  },
+  {
+   "kind": "crown",
+   "theta": 75,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1099.0,
+    "Q_residual": -7.371476762330076e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.16324627687130613
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 75,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1090.0,
+    "Q_residual": -6.84568179920575e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.19181639185934907
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 60,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1280.0,
+    "Q_residual": -5.846656492280999e-10,
+    "crown_siblings": -0.04955735600964373,
+    "crown_root_vs_grandchildren": -0.28334427443486543
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 60,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1280.0,
+    "Q_residual": -5.327462915261094e-10,
+    "crown_siblings": -0.019101947748034708,
+    "crown_root_vs_grandchildren": -0.3141548253439636
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 90,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1210.0,
+    "Q_residual": -5.742659681118312e-10,
+    "crown_siblings": -0.009226114680725627,
+    "crown_root_vs_grandchildren": -0.12273532837235601
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 90,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 156,
+   "non_joint": 155,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:siblings": 25,
+    "3:siblings": 125
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": null
+  },
+  {
+   "kind": "crown",
+   "theta": 90,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1069.0,
+    "Q_residual": -7.922740241639303e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.10523660084919484
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 90,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1139.0,
+    "Q_residual": -7.356024678273343e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.1220020141902255
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 75,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1090.0,
+    "Q_residual": -6.319982315261541e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.2077262581582697
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 75,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1140.0,
+    "Q_residual": -5.794165147676722e-10,
+    "crown_siblings": -0.026687908113832967,
+    "crown_root_vs_grandchildren": -0.2141309509741136
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 90,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1300.0,
+    "Q_residual": -6.807048258394843e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.1322206477817235
+   }
+  },
+  {
+   "kind": "crown",
+   "theta": 90,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 156,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1230.0,
+    "Q_residual": -6.27490726046176e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.1335321731358396
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 0,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 181,
+   "non_joint": 216,
+   "by_depth": {
+    "1:siblings": 60,
+    "2:other": 6,
+    "2:siblings": 150
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 0,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 181,
+   "non_joint": 222,
+   "by_depth": {
+    "1:siblings": 60,
+    "2:other": 12,
+    "2:siblings": 150
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "crown",
+   "theta": 90,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 156,
+   "non_joint": 155,
+   "by_depth": {
+    "1:siblings": 5,
+    "2:siblings": 25,
+    "3:siblings": 125
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 155,
+   "parent_child_pairs": 155,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 0,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 780.0,
+    "Q_residual": -7.999967355232229e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.15214538333814387,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.15214538333814298
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 0,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 845.0,
+    "Q_residual": -6.499785154545634e-10,
+    "crown_siblings": -0.05007907566232924,
+    "crown_root_vs_grandchildren": -0.2623202505596941,
+    "root_siblings": -0.05007907566232922,
+    "root_vs_grandchildren": -0.2623202505596935
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 0,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 181,
+   "non_joint": 6,
+   "by_depth": {
+    "2:other": 6
+   },
+   "first_clash_depth": 2,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 0,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 817.0,
+    "Q_residual": -7.499822984868842e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.18924502196266613,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.18924502196266535
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 0,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 833.0,
+    "Q_residual": -6.999882895541987e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.22596997770318245,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.22596997770318206
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 15,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 181,
+   "non_joint": 216,
+   "by_depth": {
+    "1:siblings": 60,
+    "2:other": 6,
+    "2:siblings": 150
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 30,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1408.0,
+    "Q_residual": -7.973255389259748e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.14826078840523302,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.1482607884052327
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 15,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1632.0,
+    "Q_residual": -7.960092585079792e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.1488219927210952,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.1488219927210948
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 15,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1635.0,
+    "Q_residual": -7.423983650056698e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.18442174203692943,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.1844217420369289
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 15,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": false,
+   "margins": {
+    "Q_vertices": 1640.0,
+    "Q_residual": -5.727573970659705e-10,
+    "crown_siblings": 0.017944913480155034,
+    "crown_root_vs_grandchildren": -0.2873672552956266,
+    "root_siblings": 0.017939592462915654,
+    "root_vs_grandchildren": -0.28736725529562596
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 15,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 181,
+   "non_joint": 216,
+   "by_depth": {
+    "1:siblings": 60,
+    "2:other": 6,
+    "2:siblings": 150
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 30,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 181,
+   "non_joint": 210,
+   "by_depth": {
+    "1:siblings": 60,
+    "2:siblings": 150
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 30,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 181,
+   "non_joint": 210,
+   "by_depth": {
+    "1:siblings": 60,
+    "2:siblings": 150
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 15,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1639.0,
+    "Q_residual": -6.876712532744023e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.2193791996839599,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.2193791996839594
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 15,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1639.0,
+    "Q_residual": -6.317812939471423e-10,
+    "crown_siblings": -0.07492269581816247,
+    "crown_root_vs_grandchildren": -0.25369439045983366,
+    "root_siblings": -0.07502677016823561,
+    "root_vs_grandchildren": -0.25369439045983333
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 30,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1539.0,
+    "Q_residual": -6.453375611670253e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.25118050654694457,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.2511805065469441
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 30,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 181,
+   "non_joint": 6,
+   "by_depth": {
+    "1:siblings": 6
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 45,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 181,
+   "non_joint": 6,
+   "by_depth": {
+    "1:siblings": 6
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 45,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 181,
+   "non_joint": 6,
+   "by_depth": {
+    "1:siblings": 6
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 30,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1478.0,
+    "Q_residual": -7.466733897842914e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.18335552413757703,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.1833555241375766
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 30,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1478.0,
+    "Q_residual": -6.960012566281648e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.2176620760293991,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.21766207602939872
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 45,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 181,
+   "non_joint": 216,
+   "by_depth": {
+    "1:siblings": 60,
+    "2:other": 6,
+    "2:siblings": 150
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 60,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1099.0,
+    "Q_residual": -7.916809430241756e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.14787434604600322,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.14787434604600236
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 45,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1259.0,
+    "Q_residual": -7.947735802815714e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.14747777545495966,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.14747777545495935
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 45,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1349.0,
+    "Q_residual": -7.434650672877297e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.18224436369086766,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.18224436369086708
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 60,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 181,
+   "non_joint": 12,
+   "by_depth": {
+    "1:siblings": 6,
+    "2:other": 6
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 60,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 181,
+   "non_joint": 216,
+   "by_depth": {
+    "1:siblings": 60,
+    "2:other": 6,
+    "2:siblings": 150
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 45,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1350.0,
+    "Q_residual": -6.919791406545528e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.21620835705792554,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.21620835705792485
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 45,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1400.0,
+    "Q_residual": -6.407216979198438e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.24936743203438175,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.2493674320343811
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 60,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": false,
+   "margins": {
+    "Q_vertices": 1230.0,
+    "Q_residual": -6.365914462236333e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.2507260526787617,
+    "root_siblings": 0.04583367164540486,
+    "root_vs_grandchildren": -0.250726052678761
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 60,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 181,
+   "non_joint": 6,
+   "by_depth": {
+    "2:other": 6
+   },
+   "first_clash_depth": 2,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 60,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1119.0,
+    "Q_residual": -7.4039840924911e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.18293665559042463,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.1829366555904239
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 60,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1200.0,
+    "Q_residual": -6.885045866766859e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.21723645028770058,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.21723645028769975
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 75,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 181,
+   "non_joint": 6,
+   "by_depth": {
+    "2:other": 6
+   },
+   "first_clash_depth": 2,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 75,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 181,
+   "non_joint": 222,
+   "by_depth": {
+    "1:siblings": 60,
+    "2:other": 12,
+    "2:siblings": 150
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 75,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1209.0,
+    "Q_residual": -7.897205112072925e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.1323609851817367,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.13236098518173636
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 75,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1099.0,
+    "Q_residual": -7.371476762330076e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.16324627687130613,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.16324627687130588
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 75,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 181,
+   "non_joint": 324,
+   "by_depth": {
+    "1:siblings": 60,
+    "2:other": 114,
+    "2:siblings": 150
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 90,
+   "g": 0.2,
+   "d": 1.1647627084743388,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1069.0,
+    "Q_residual": -7.922740241639303e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.10523660084919484,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.10523660084919398
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 75,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1090.0,
+    "Q_residual": -6.84568179920575e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.19181639185934907,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.1918163918593486
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 75,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": false,
+   "margins": {
+    "Q_vertices": 1090.0,
+    "Q_residual": -6.319982315261541e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.2077262581582697,
+    "root_siblings": 0.08643256738222305,
+    "root_vs_grandchildren": -0.20772625815826942
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 90,
+   "g": 0.35,
+   "d": 1.288334739830093,
+   "nodes": 181,
+   "non_joint": 6,
+   "by_depth": {
+    "2:other": 6
+   },
+   "first_clash_depth": 2,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 90,
+   "g": 0.4,
+   "d": 1.3295254169486777,
+   "nodes": 181,
+   "non_joint": 12,
+   "by_depth": {
+    "2:other": 12
+   },
+   "first_clash_depth": 2,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 90,
+   "g": 0.45,
+   "d": 1.3707160940672622,
+   "nodes": 181,
+   "non_joint": 324,
+   "by_depth": {
+    "1:siblings": 60,
+    "2:other": 114,
+    "2:siblings": 150
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 90,
+   "g": 0.5,
+   "d": 1.411906771185847,
+   "nodes": 181,
+   "non_joint": 348,
+   "by_depth": {
+    "1:siblings": 60,
+    "2:other": 138,
+    "2:siblings": 150
+   },
+   "first_clash_depth": 1,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": null
+  },
+  {
+   "kind": "thirty",
+   "theta": 90,
+   "g": 0.25,
+   "d": 1.2059533855929234,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": true,
+   "margins": {
+    "Q_vertices": 1139.0,
+    "Q_residual": -7.356024678273343e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.1220020141902255,
+    "root_siblings": -Infinity,
+    "root_vs_grandchildren": -0.12200201419022468
+   }
+  },
+  {
+   "kind": "thirty",
+   "theta": 90,
+   "g": 0.3,
+   "d": 1.2471440627115082,
+   "nodes": 181,
+   "non_joint": 0,
+   "by_depth": {},
+   "first_clash_depth": null,
+   "joints_overlapping": 180,
+   "parent_child_pairs": 180,
+   "certified": false,
+   "margins": {
+    "Q_vertices": 1300.0,
+    "Q_residual": -6.807048258394843e-10,
+    "crown_siblings": -Infinity,
+    "crown_root_vs_grandchildren": -0.1322206477817235,
+    "root_siblings": 0.025068904426555683,
+    "root_vs_grandchildren": -0.1322206477817224
+   }
+  }
+ ]
+}

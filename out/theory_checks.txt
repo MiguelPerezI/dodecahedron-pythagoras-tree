@@ -1,0 +1,35 @@
+== base solid
+edge 0.763932  inradius 0.850651  midradius 1  circumradius 1.070466
+volume 3.416408  face area 1.004057  surface 12.048685
+crown normal a0 = [0.       0.525731 0.850651]  = (0,1,phi)/|.|: True
+dihedral angle 63.4349 between normals -> dihedral 116.5651 deg; |cos| = 0.447214 = 1/sqrt5 0.447214
+angle(edge-midpoint axis m_k, a0) = 31.7175 deg; m_k.a0 = 0.850651
+
+== tight frames (frame operator S = sum a a^T)
+5-fold (face) axes: 6 lines, S = 2.000000 I ? True
+2-fold (edge) axes: 15 lines, S = 5.000000 I ? True
+3-fold (vertex) axes: 10 lines, S = 3.333333 I ? True
+neighbours of face 0: [1, 2, 3, 6, 7]  sum (a0.ak)^2 = 1.0000000000000004
+every edge direction is a 2-fold axis: True
+
+== symmetry of the crown map family
+C5 about a0 (5 rotations) permutes the maps: True; mirror through a0, m0: True; any other icosahedral rotation: False
+theta=0: mirror symmetric: True
+theta=90: mirror symmetric: True
+
+== measures
+artwork: g=0.434558 5g^2=0.944205 5g^3=0.410312  similarity dim 1.931113  total volume/V0 1.695813  total surface/S0 17.9228
+pythagorean 1/sqrt5: g=0.447214 5g^2=1.000000 5g^3=0.447214  similarity dim 2.000000  total volume/V0 1.809017  total surface/S0 inf
+artwork g vs 1/sqrt5: relative -2.830%
+volume bound for sprouting on all 30 edges: g <= 30^(-1/3) = 0.3218297948685433 ; artwork 30 g^3 = 2.461874024363983
+volume bound for the crown: g <= 5^(-1/3) = 0.5848035476425733
+
+== the Pythagorean member g* = 1/sqrt5, theta = 45
+d = 1 + kappa g* = 1.368421: non-joint clashes to depth 5: 5; certificate False (siblings 2.63e-02, root/grandchildren -3.12e-01)
+d = artwork = 1.357995: non-joint clashes to depth 5: 5; certificate False (siblings 2.61e-02, root/grandchildren -3.05e-01)
+
+== the artwork's parameters
+g = 0.36 (1+sqrt2)/2 = 0.4345584412   d = 1.125 (1+sqrt2)/2 = 1.3579951288   kappa = 0.823814
+if `gold` had been the golden ratio: g = 0.582492, d = 1.820288
+child: circumradius 0.465180, centre at 1.357995, gap between parent edge midpoint and child centre 0.357995 < child midradius 0.434558
+diameter of the tree's bounding box (depth 6):  [3.31162406 3.11262557 3.33670409]
