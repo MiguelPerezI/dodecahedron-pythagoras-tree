@@ -22,8 +22,10 @@ The Pythagoras tree of A. E. Bosman (1942) is drawn with squares in the plane an
 
 Upload
 ------
-Upload dodecahedral_pythagoras_tree_arxiv.tar.gz as the source. arXiv will run pdflatex
-(the first line of the .tex is \pdfoutput=1, as arXiv requires for pdflatex with JPEG/PDF figures).
-Files under anc/ are shown as "Ancillary files" on the abstract page and are not compiled.
+Upload dodecahedral_pythagoras_tree_arxiv.tar.gz as the source (the .tex and the figures it
+includes; arXiv compiles it with pdflatex, and the first line of the .tex is \pdfoutput=1 as arXiv
+requires for JPEG/PDF figures).  Do not upload the PDF alone: arXiv asks for the TeX source.
+Optional: `bash scripts/make_arxiv.sh --with-code` builds a bundle that also carries the code
+under anc/, which arXiv lists as "Ancillary files" on the abstract page (not compiled).
 
 Endorsement: a first submission to math.* may require an endorser; arXiv shows how to request one.
